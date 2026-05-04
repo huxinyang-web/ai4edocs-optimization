@@ -240,7 +240,7 @@ x_1(0)=[\frac{\pi}{4},\frac{\pi}{4},\frac{\pi}{4}]\\x_1(1)=[0,0,0]\\x_2(0)=[0,0,
 
 下面介绍如何在Julia生态高效计算4个未知数。
 
-需要运用符号处理包——Symbolics.jl。该包在[MTK的"前世今生"](../Modeling/WathMTKdo.md)已经介绍过。本篇中也会用到。
+需要运用符号处理包——Symbolics.jl。该包在[MTK的"前世今生"](https://huxinyang-web.github.io/ai4edocs-modeling/04Modeling/WathMTKdo)已经介绍过。本篇中也会用到。
 
 ```julia
 using Symbolics, EquationsSolver, LinearAlgebra
@@ -494,7 +494,7 @@ gif(anim, filename, fps=24)
 2. 调节时间为：`tf = 4`；
 3. 优化变量（扭矩、角度）有范围限制；
 4. 终端对速度也有约束；
-5. 状态方程作为优化问题的约束，约束不同时刻的状态量之间的关联（不同时间的角度值为不同优化变量。角度状态，角速度状态，扭矩状态各有3N个）。状态方程变为离散结构，因为一旦涉及到数值解，必定是离散化的。离散的方式是[二阶的梯形法](../Simulation/DE_heattran.md)；
+5. 状态方程作为优化问题的约束，约束不同时刻的状态量之间的关联（不同时间的角度值为不同优化变量。角度状态，角速度状态，扭矩状态各有3N个）。状态方程变为离散结构，因为一旦涉及到数值解，必定是离散化的。离散的方式是[二阶的梯形法](https://huxinyang-web.github.io/ai4edocs-modeling/05Simulation/DE_heattran)；
 6. 优化目标为$\sum_{j=1}^{3}\sum_{i=1}^{N}\frac{20}{\pi}x_{1(i,j)}^2+u_{(i,j)}^2$
 
 ::: tip
