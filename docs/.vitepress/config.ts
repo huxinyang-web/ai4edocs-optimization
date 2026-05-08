@@ -26,7 +26,7 @@ export default defineConfig({
 
     nav: [
       { text: '首页', link: '/' },
-      { text: 'Optimization', icon: 'book', link: '/docs/' },
+      { text: 'Optimization', icon: 'book', link: '/' },
       { text: 'Cs-Basics', link: 'https://huxinyang-web.github.io/ai4edocs-cs-basics/' },
       { text: 'Dev-Tools', link: 'https://huxinyang-web.github.io/ai4edocs-dev-tools/' },
       { text: 'Modeling', link: 'https://huxinyang-web.github.io/ai4edocs-modeling/' },
@@ -39,38 +39,38 @@ export default defineConfig({
           text: '优化',
           collapsed: false,
           items: [
-            { text: '简介', link: '/docs/06Optimization/简介.md' },
-            { text: '优化问题概述', link: '/docs/06Optimization/优化问题概述.md' },
-            { text: '线性规划', link: '/docs/06Optimization/线性规划.md' },
-            { text: '非线性规划', link: '/docs/06Optimization/非线性规划.md' },
-            { text: '整数规划', link: '/docs/06Optimization/整数规划.md' },
-            { text: '动态规划', link: '/docs/06Optimization/动态规划.md' },
-            { text: '启发式优化', link: '/docs/06Optimization/启发式优化.md' },
-            { text: '多目标优化', link: '/docs/06Optimization/多目标优化.md' },
-            { text: '约束优化', link: '/docs/06Optimization/约束优化.md' },
-            { text: '全局优化', link: '/docs/06Optimization/全局优化.md' },
-            { text: '组合优化', link: '/docs/06Optimization/组合优化.md' },
-            { text: '随机优化', link: '/docs/06Optimization/随机优化.md' },
-            { text: '鲁棒优化', link: '/docs/06Optimization/鲁棒优化.md' },
-            { text: '凸优化', link: '/docs/06Optimization/凸优化.md' },
-            { text: '梯度下降法', link: '/docs/06Optimization/梯度下降法.md' },
-            { text: '遗传算法', link: '/docs/06Optimization/遗传算法.md' },
-            { text: '粒子群优化', link: '/docs/06Optimization/粒子群优化.md' },
-            { text: '模拟退火', link: '/docs/06Optimization/模拟退火.md' },
-            { text: '蚁群算法', link: '/docs/06Optimization/蚁群算法.md' },
-            { text: '神经网络优化', link: '/docs/06Optimization/神经网络优化.md' },
-            { text: '优化实战案例', link: '/docs/06Optimization/优化实战案例.md' }
+            { text: '简介', link: '/06Optimization/简介.md' },
+            { text: '优化问题概述', link: '/06Optimization/优化问题概述.md' },
+            { text: '线性规划', link: '/06Optimization/线性规划.md' },
+            { text: '非线性规划', link: '/06Optimization/非线性规划.md' },
+            { text: '整数规划', link: '/06Optimization/整数规划.md' },
+            { text: '动态规划', link: '/06Optimization/动态规划.md' },
+            { text: '启发式优化', link: '/06Optimization/启发式优化.md' },
+            { text: '多目标优化', link: '/06Optimization/多目标优化.md' },
+            { text: '约束优化', link: '/06Optimization/约束优化.md' },
+            { text: '全局优化', link: '/06Optimization/全局优化.md' },
+            { text: '组合优化', link: '/06Optimization/组合优化.md' },
+            { text: '随机优化', link: '/06Optimization/随机优化.md' },
+            { text: '鲁棒优化', link: '/06Optimization/鲁棒优化.md' },
+            { text: '凸优化', link: '/06Optimization/凸优化.md' },
+            { text: '梯度下降法', link: '/06Optimization/梯度下降法.md' },
+            { text: '遗传算法', link: '/06Optimization/遗传算法.md' },
+            { text: '粒子群优化', link: '/06Optimization/粒子群优化.md' },
+            { text: '模拟退火', link: '/06Optimization/模拟退火.md' },
+            { text: '蚁群算法', link: '/06Optimization/蚁群算法.md' },
+            { text: '神经网络优化', link: '/06Optimization/神经网络优化.md' },
+            { text: '优化实战案例', link: '/06Optimization/优化实战案例.md' }
           ]
         },
         {
           text: '控制',
           collapsed: true,
           items: [
-            { text: '简介', link: '/docs/07Control/简介.md' },
-            { text: '控制理论基础', link: '/docs/07Control/控制理论基础.md' },
-            { text: '经典控制理论', link: '/docs/07Control/经典控制理论.md' },
-            { text: '现代控制理论', link: '/docs/07Control/现代控制理论.md' },
-            { text: 'MPC 模型预测控制', link: '/docs/07Control/MPC 模型预测控制.md' }
+            { text: '简介', link: '/07Control/简介.md' },
+            { text: '控制理论基础', link: '/07Control/控制理论基础.md' },
+            { text: '经典控制理论', link: '/07Control/经典控制理论.md' },
+            { text: '现代控制理论', link: '/07Control/现代控制理论.md' },
+            { text: 'MPC 模型预测控制', link: '/07Control/MPC 模型预测控制.md' }
           ]
         }
       ]
