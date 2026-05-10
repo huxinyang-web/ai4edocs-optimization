@@ -1,23 +1,20 @@
 ---
-layout: home
 title: Ai4Energy Docs
 titleTemplate: Optimization & Control
-
-hero:
-  name: Ai4Energy
-  text: Optimization & Control
-  tagline: 优化与控制
-  actions:
-    - theme: brand
-      text: 开始学习
-      link: /docs/
-    - theme: alt
-      text: 其他文档仓库
-      link: https://huxinyang-web.github.io/ai4edocs-cs-basics/
-
-features:
-  - title: 优化
-    details: 优化理论、优化算法、启发式优化
-  - title: 控制
-    details: 控制理论、MPC 模型预测控制
 ---
+
+# 优化与控制
+
+欢迎来到优化与控制课程。本课程涵盖优化理论基础、各类优化算法、控制理论与模型预测控制，面向能源系统优化与控制应用。
+
+## 课程内容
+
+### 优化
+优化问题概述、线性规划、非线性规划、整数规划、动态规划、启发式优化、多目标优化、约束优化、全局优化、组合优化、随机优化、鲁棒优化、凸优化、梯度下降法、遗传算法、粒子群优化、模拟退火、蚁群算法、神经网络优化及实战案例。
+
+### 控制
+控制理论基础、经典控制理论、现代控制理论、MPC 模型预测控制。
+
+## 开始学习
+
+请使用左侧边栏导航，选择具体章节开始学习。

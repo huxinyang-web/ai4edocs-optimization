@@ -34,7 +34,7 @@ export default defineConfig({
     ],
 
     sidebar: {
-      '/docs/': [
+      '/': [
         {
           text: '优化',
           collapsed: false,
