@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
     DEPE = DiffEqParamEstim.jl(Differential Equation Parameters Estimate)
 
@@ -246,3 +248,6 @@ result.minimizer
 
 ::: note
     该参数辨识仍然是优化问题的子集，选择不同的初值很可能得到不同的结果。
+
+:::
+:::

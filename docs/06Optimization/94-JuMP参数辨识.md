@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     JuMP = JuMP.jl
@@ -136,3 +138,7 @@ end
 JuMP.optimize!(model)
 JuMP.value.(para)
 ```
+
+:::
+:::
+:::

@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     [JuMP](https://jump.dev/JuMP.jl/v0.21.8/tutorials/Nonlinear%20programs/clnlbeam/)是计算优化问题的Julia软件包。
@@ -119,3 +121,5 @@ plot([(i -1)*dt for i in 1:N],value.(u))
 ![图 4](/assets/image/07Control/JuMPMPC_17_37_55.png)  
 
 比刚刚好多了！
+
+:::

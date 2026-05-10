@@ -9,6 +9,8 @@
 
     如有错误，请批评指正。
 
+:::
+
 ::: note
 
     MPC = Model Predict Control
@@ -146,3 +148,5 @@ u: 20-element Vector{Float64}:
 这在数学上是合理的，在实际中却没有意义。所以在控制中一般需要加一些约束，比如加热功率上下限、加热功率变化幅度。
 
 所以，为了处理约束，可以[使用JuMP来做MPC](./JuMPMPC.md)。
+
+:::
