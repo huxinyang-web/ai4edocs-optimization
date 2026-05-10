@@ -70,7 +70,8 @@ export default defineConfig({
             { text: 'JuMPMPC', link: '/07Control/JuMPMPC.md' },
             { text: 'KalmanFiltering', link: '/07Control/KalmanFiltering.md' },
             { text: 'MTKMPC', link: '/07Control/MTKMPC.md' },
-            { text: 'OptimControl', link: '/07Control/OptimControl.md' }
+            { text: 'OptimControl', link: '/07Control/OptimControl.md' },
+            { text: 'OptControl 设计理念', link: '/07Control/OptControl.md' }
           ]
         }
       ]
